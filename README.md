@@ -177,7 +177,7 @@ const images = await render({
 
 ## Author
 
-👤 **Forward Miami**
+👤  **Forward Miami**
 
 * Website: [https://forward.miami](https://forward.miami)
 * Github: [@forwardmiami](https://github.com/forwardmiami)
