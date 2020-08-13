@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to @fwd/render 🌄</h1>
+<h1 align="center">Render 🌄</h1>
 
 > A Node.js library that generates images from HTML
 
