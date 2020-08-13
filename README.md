@@ -192,6 +192,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Forward Miami](https://forward.miami).<br />
+Copyright © 2020 [Forward Miami](https://forward.miami).
+<br />
+<br />
 This project is [Apache--2.0](https://github.com/forwardmiami/render/blob/master/LICENSE) licensed.
 
