@@ -1,0 +1,30 @@
+{
+  "name": "@fwd/render",
+  "version": "0.0.1",
+  "description": "A Node.js library that generates Images from HTML",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "repository": "git@github.com:forwardmiami/render.git",
+  "author": "Forward Miami <hello@forward.miami>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "puppeteer": "3.0.0",
+    "puppeteer-cluster": "^0.21.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "src",
+    "types",
+    "!src/*.spec.js"
+  ],
+  "devDependencies": {
+    "gitmoji-changelog": "^2.1.0",
+    "jest": "^26.1.0",
+    "jest-circus": "^26.1.0",
+    "rimraf": "^3.0.2",
+    "tesseract.js": "^2.0.1"
+  }
+}
