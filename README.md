@@ -1,8 +1,6 @@
-<h1 align="center">Render 🌄</h1>
+<h1 align="center">@fwd/render 🌄</h1>
 
 > A Node.js library that generates images from HTML
-
-### 🏠 [Homepage](https://github.com/forwardmiami/render)
 
 ## Description
 
