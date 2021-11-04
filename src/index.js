@@ -22,7 +22,7 @@ module.exports = async function(options) {
     puppeteerOptions: { ...puppeteerArgs, headless: true },
   }
       
-  if (options.raspberry) options.puppeteerOptions.executablePath = '/usr/bin/chromium-browser',
+  if (options.raspberry) options.puppeteerOptions.executablePath = '/usr/bin/chromium-browser'
 
   const cluster = await Cluster.launch(_options);
 
