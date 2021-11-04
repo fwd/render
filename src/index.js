@@ -15,12 +15,16 @@ module.exports = async function(options) {
   if (!html) {
     throw Error('You must provide an html property.')
   }
-
-  const cluster = await Cluster.launch({
+  
+  var _options = {
     concurrency: Cluster.CONCURRENCY_CONTEXT,
-    maxConcurrency: 2,
+    maxConcurrency: options.maxConcurrency || 4,
     puppeteerOptions: { ...puppeteerArgs, headless: true },
-  });
+  }
+      
+  if (options.raspberry) options.puppeteerOptions.executablePath = '/usr/bin/chromium-browser',
+
+  const cluster = await Cluster.launch(_options);
 
   let buffers = []
 
