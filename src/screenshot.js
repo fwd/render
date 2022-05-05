@@ -9,7 +9,7 @@ module.exports = {
     content,
     html,
     transparent = false,
-    waitUntil = 'networkidle0',
+    waitUntil = 'networkidle2',
   }) {
 
     let screeshotArgs = {}
